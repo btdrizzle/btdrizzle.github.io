@@ -32,15 +32,6 @@ h3 {
 p {
     line-height: 1.5;
 }
-#wrapper {
-    min-height: 100%;
-    margin-bottom: -60px;
-}
-#wrapper:after {
-    content: "";
-    display: block;
-    height: 60px;
-}
 
 /* Header */
 #header {
