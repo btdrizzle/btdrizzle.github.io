@@ -80,11 +80,12 @@ ul {
     background-color: #B18F9B; 
 }
 
+
 /* Body */
 
 #bigcontainer {
 
-    height: auto;
+    height: 100vs;
     width: auto;
     background-image: URL("../images/green_cup.png");
     padding:60px;
