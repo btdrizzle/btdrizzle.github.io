@@ -1,8 +1,15 @@
 /* Universal */
 * {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 16px; 
+    display: block;
     
+}
+title {
+    display: none;
+}
+html, body {
+    height: 100%;
 }
 
 body {
@@ -21,6 +28,20 @@ h2 {
 h3 {
     font-size: 1.3em;
 }
+
+p {
+    line-height: 1.5;
+}
+#wrapper {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+#wrapper:after {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
 /* Header */
 #header {
     background-color:#BEBEBE;
@@ -53,9 +74,8 @@ h3 {
     display:block;
     color: black;
     font-size: 1.2em;
-    padding: 29px 20px;
+    padding: 30.8px 20px;
     text-align: center;
-    
     font-weight: bold;
 }
 #header a:hover {
@@ -73,7 +93,7 @@ ul {
 
 #bigcontainer {
 
-    height: auto;
+    height: 100vh;
     width: auto;
     background-image: URL("../images/green_cup.png");
     padding:60px;
@@ -224,7 +244,8 @@ input[type=submit]:hover {
     font-weight: bold;
     text-align: center;
     padding: 20px;
-    ;
+    
+    
 }
 
 /*  Media Queries */
