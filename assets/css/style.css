@@ -84,7 +84,7 @@ ul {
 
 #bigcontainer {
 
-    height: 100vh;
+    height: 100%;
     width: auto;
     background-image: URL("../images/green_cup.png");
     padding:60px;
@@ -109,7 +109,8 @@ ul {
     height: auto;
     background-color: #f2f2f2;
     margin: auto;
-    position: relative;
+    position: relative
+    ;
     
 }
 #innerdiv h1 {
