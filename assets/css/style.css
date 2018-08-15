@@ -5,9 +5,14 @@
     display: block;
 
 }
-html {
+html, body {
     height: 100%;
+    margin: 0;
 }
+.content {
+    min-height: 100%;
+}
+
 title {
     display: none;
 }
@@ -85,7 +90,7 @@ ul {
 
 #bigcontainer {
 
-    height: 100vs;
+    min-height: 100%;
     width: auto;
     background-image: URL("../images/green_cup.png");
     padding:60px;
@@ -236,7 +241,7 @@ input[type=submit]:hover {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
     
     
     
