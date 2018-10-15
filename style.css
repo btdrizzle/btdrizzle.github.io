@@ -1,0 +1,125 @@
+/* General Styles for Both Pages */
+html {
+    position: relative;
+    height: 100%;
+}
+body {
+    position: relative;
+    height: 100%;   
+    font-family: 'Rubik', sans-serif;
+}
+.display-1,.display-3,.display-4 {
+    font-family: 'Pacifico', cursive;
+}
+.header {
+    margin: auto;
+    background-color: #36454f;
+    height: auto;
+}
+nav {
+    margin: 0 auto;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #d9d9d9;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+.background {
+    background-image: url("./images/dust_scratches.png");
+    min-height: calc(100vh - 55px);
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-attachment: fixed;
+}
+#bigcontainer {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+#bigcontainer h1 {
+    margin: auto;
+    text-align: right;
+}
+#bigcontainer h2 {
+    margin: auto;
+}
+/*Projects on Profile Page */
+#projects {
+    margin-top: 75px;
+}
+.work:hover {
+    cursor: pointer;
+}
+.work img {
+    max-height: 400px;
+    max-width: 400px;
+}
+/* Modal Styles */
+#contactModalTitle {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+#contactModal .modal-header {
+    background-color: #36454f;
+}
+#contactModal .close {
+    color: white;
+    opacity: 1;
+    transition: 0.3s;
+}
+#contactModal .close:hover {
+    color: black;
+    opacity: .2;
+}
+#modalClose {
+    background-color: #36454f;
+    color: white;
+    transition: 0.3s;
+}
+#modalClose:hover {
+    color: black;
+}
+/* Footer Style */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Set the fixed height of the footer here */
+    line-height: 40px; /* Vertically center the text there */
+    background-color: #36454f;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1025px) { /* The display tag is not responsive.  This is a fix */
+    .display-1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    .display-2 {
+        font-size: 2.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+
+    .display-3 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+
+    .display-4 {
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+}

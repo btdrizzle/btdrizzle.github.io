@@ -1,56 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Brian T Drake</title>
+    <meta charset="utf-8">
+    <title>Brian T Drake Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    
-    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Rubik" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <div id="header">
-            <div id="headercontainer">  <!-- This is to make header info stay 960 px or smaller on wide screens -->
-                <div id="name">
-                    <h1>Brian T Drake</h1>
+    <div class="header sticky-top">
+        <nav class="col-lg-10 navbar navbar-expand-md navbar-light z-depth-0">
+            <a class="navbar-brand" href="#">BRIAN T DRAKE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="./index.html">About</a>
+                <a class="nav-item nav-link active" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" id="contactModalOpen">Contact</a>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <div class="background">
+        <div id="bigcontainer" class="container-fluid col-lg-10">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-1 text-center">Work Completed</h1>
+                    <div id="projects" class="d-inline-flex justify-content-center flex-wrap"></div>
                 </div>
-                <ul><!--This nav is part of the header on larger screens-->
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
-                    <li><a href="index.html">About</a></li>
-                </ul>
             </div>
         </div>
-        <div class="smallnav"><!--This nav is for smaller screens... blocked on larger screens-->
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li class="active"><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <footer class="footer">
+            <div class="container">
+            <span class="text-muted">Copyright <i class="fa fa-copyright"></i> Brian T Drake</span>
+            </div>
+        </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="contactModalTitle">Brian Drake's Contact Information</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> Phone: 713-562-1579</p>
+                        <p><i class="fa fa-at" aria-hidden="true"></i> E-mail: <a href="mailto:briandrake05@gmail.com">briandrake05@gmail.com</a></p>
+                        <p><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn: <a href="https://www.linkedin.com/in/brian-drake-180513160/" target="_blank">My LinkedIn Profile</a></p>
+                        <p><i class="fa fa-github" aria-hidden="true"></i> Github Page: <a href="https://btdrizzle.github.io/README.md" target="_blank">My Github Projects</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="modalClose" class="btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <div id="bigcontainer">
-        <div id="innerdiv1">
-                <h1>Samples of My Work</h1>
-                <br>
-                <hr>
-                <br>
-            <ul class="containerflex">
-                <li class="flexitem" id="dandd"><div>D &amp D</div></li>
-                <li class="flexitem" id="brewery"><div>Brewery</div></li>
-                <li class="flexitem" id="webapp"><div>Web App</div></li>
-                <li class="flexitem" id="accordion"><div>Accordion Shop</div></li>
-                <li class="flexitem" id="docker"><div>Docker Swarm</div></li>
-
-        </div>
-        
-
     </div>
-    <div class="footer">
-        <p>Copyright Brian T Drake</p>
-    </div>
+    
+
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>

@@ -1,65 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Brian T Drake</title>
+    <meta charset="utf-8">
+    <title>Brian T Drake Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    
-    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Rubik" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <div id="header">
-            <div id="headercontainer">  <!-- This is to make header info stay 960 px or smaller on wide screens -->
-                <div id="name">
-                    <h1>Brian T Drake</h1>
-                </div>
-                <ul> <!--This nav is part of the header on larger screens-->
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="index.html">About</a></li>
-                </ul>
+    <div class="header sticky-top">
+        <nav class="col-lg-10 navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#">BRIAN T DRAKE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="./index.html">About</a>
+                <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" id="contactModal">Contact <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <div class="background">
+        <div id="bigcontainer" class="container-fluid col-lg-10">
+            <div class="row">
+                <h1 class="display-1">Contact</h1>
+            </div>
+            <br>
+            <br>
+            <div class="row justify-content-center">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputFirstName">First Name</label>
+                          <input type="text" class="form-control" id="inputFirstName" placeholder="First">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputLastName">Last Name</label>
+                          <input type="text" class="form-control" id="inputLastName" placeholder="Last">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option value="AL">Alabama</option>
+                              <option value="AK">Alaska</option>
+                              <option value="AZ">Arizona</option>
+                              <option value="AR">Arkansas</option>
+                              <option value="CA">California</option>
+                              <option value="CO">Colorado</option>
+                              <option value="CT">Connecticut</option>
+                              <option value="DE">Delaware</option>
+                              <option value="DC">District of Columbia</option>
+                              <option value="FL">Florida</option>
+                              <option value="GA">Georgia</option>
+                              <option value="HI">Hawaii</option>
+                              <option value="ID">Idaho</option>
+                              <option value="IL">Illinois</option>
+                              <option value="IN">Indiana</option>
+                              <option value="IA">Iowa</option>
+                              <option value="KS">Kansas</option>
+                              <option value="KY">Kentucky</option>
+                              <option value="LA">Louisiana</option>
+                              <option value="ME">Maine</option>
+                              <option value="MD">Maryland</option>
+                              <option value="MA">Massachusetts</option>
+                              <option value="MI">Michigan</option>
+                              <option value="MN">Minnesota</option>
+                              <option value="MS">Mississippi</option>
+                              <option value="MO">Missouri</option>
+                              <option value="MT">Montana</option>
+                              <option value="NE">Nebraska</option>
+                              <option value="NV">Nevada</option>
+                              <option value="NH">New Hampshire</option>
+                              <option value="NJ">New Jersey</option>
+                              <option value="NM">New Mexico</option>
+                              <option value="NY">New York</option>
+                              <option value="NC">North Carolina</option>
+                              <option value="ND">North Dakota</option>
+                              <option value="OH">Ohio</option>
+                              <option value="OK">Oklahoma</option>
+                              <option value="OR">Oregon</option>
+                              <option value="PA">Pennsylvania</option>
+                              <option value="RI">Rhode Island</option>
+                              <option value="SC">South Carolina</option>
+                              <option value="SD">South Dakota</option>
+                              <option value="TN">Tennessee</option>
+                              <option value="TX">Texas</option>
+                              <option value="UT">Utah</option>
+                              <option value="VT">Vermont</option>
+                              <option value="VA">Virginia</option>
+                              <option value="WA">Washington</option>
+                              <option value="WV">West Virginia</option>
+                              <option value="WI">Wisconsin</option>
+                              <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type a message for me"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                </form> 
             </div>
         </div>
-        <div class="smallnav"><!--This nav is for smaller screens... blocked on larger screens-->
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-    <div id="bigcontainer">
-        <div id="innerdiv1"> <!-- This Div has auto height -->
-                <h1>Contact Me</h1>
-                <br>
-                <hr>
-                <br>
-                <div class="container"> <!-- This Div is the form -->
-                    <form action="action_page.php"> <!--Placeholder for real php file-->
-                  
-                      <label for="name">Name</label>
-                      <input type="text" id="typename" name="typename" placeholder="First and Last Name">
-
-                  
-                      <label for="country">E-mail</label>
-                      <input type="text" id="e-mail" name="e-mail" placeholder="you@you.com">
-
-                  
-                      <label for="message">Message</label>
-                      <textarea id="message" name="message" placeholder="Your Message..." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                  
-                    </form>
-                </div> 
-        </div>
+        <footer class="footer">
+            <div class="container">
+            <span class="text-muted">Copyright <i class="far fa-copyright"></i> Brian T Drake</span>
+            </div>
+        </footer>
     </div>
-    <div class="footer">
-        <p>Copyright Brian T Drake</p>
-    </div>
+
+
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.12/js/mdb.min.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
