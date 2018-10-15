@@ -26,7 +26,7 @@ The challenge of this project was not only creating a beautiful site but impleme
 
 [Interactive Giphy Finder](https://btdrizzle.github.io/GifsNotJifs/index.html "Click to find some gifs of your own!")
 
-### Contact Info
+## Contact Info
 
 Phone: 713-562-1579
 
