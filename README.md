@@ -6,6 +6,10 @@ Click links below to view each project.
 
 ## Project Links
 
+### View Github Profile
+
+[Brian Drake's Github Profile](https://www.github.com/btdrizzle/ "Click to view my Github profile and repositories")
+
 ### Hooligan's Web Video Game
 
 This was a group project, where my group designed a fighting-style game where the player plays against a computer.  The page uses Firebase to log in users and stores their information and player attributes.  Players choose a favorite team and strength, stamina, and wits properties and a fighter to play.  
