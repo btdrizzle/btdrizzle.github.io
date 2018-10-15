@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Brian T Drake Github Project Repositories
 
-You can use the [editor on GitHub](https://github.com/btdrizzle/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my Github site!  This page contains links to various projects I have designed and contributed to.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Click links below to view each project.
 
-### Markdown
+## Project Links
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Hooligan's Web Video Game
 
-```markdown
-Syntax highlighted code block
+This was a group project, where my group designed a fighting-style game where the player plays against a computer.  The page uses Firebase to log in users and stores their information and player attributes.  Players choose a favorite team and strength, stamina, and wits properties and a fighter to play.  
 
-# Header 1
-## Header 2
-### Header 3
+My biggest contribution to the project was implementing authentication with Firebase, storing information in the database, and responding to queries.  I connected this retrieved information to the player UI.  
 
-- Bulleted
-- List
+[Hooligans](https://irichard03.github.io/Project1/index.html "Click to play the game")
 
-1. Numbered
-2. List
+### Rock, Paper, Scissors, Lizard, Spock Online Multiplayer Game
 
-**Bold** and _Italic_ and `Code` text
+The challenge of this project was not the functionality of the RPSLS game itself, but connecting two users and having them play each other over the internet.  The game is connected to a Firebase database and event listeners guide players through the game.  The game also has a real-time chat box.
 
-[Link](url) and ![Image](src)
-```
+[RPSLS Multiplayer](https://btdrizzle.github.io/RPSLS-Multiplayer/index.html "Find a friend to play the game with!")
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Interactive Giphy Finder
 
-### Jekyll Themes
+The challenge of this project was not only creating a beautiful site but implementing calls to the Giphy API and displaying results and creating an interactive site - users can create buttons of their own to search the Giphy API for whatever word they choose.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/btdrizzle/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Interactive Giphy Finder](https://btdrizzle.github.io/GifsNotJifs/index.html "Click to find some gifs of your own!")
 
-### Support or Contact
+### Contact Info
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Phone: 713-562-1579
+
+E-mail: [briandrake05@gmail.com](mailto:briandrake05@gmail.com "Send me an e-mail for more information")
+
+Portfolio: [Brian Drake Portfolio](https://btdrizzle.github.io/index.html "Click to view my portfolio")
