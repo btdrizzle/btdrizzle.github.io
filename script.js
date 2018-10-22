@@ -3,6 +3,9 @@ var portfolioLinks = [
     {name: "Hooligans Interactive Game",
     link: "https://irichard03.github.io/Project1/index.html",
     pic: "./images/hooligans.png"},
+    {name: "Liri CLI Server-Side Entertainment Search Engine",
+    link: "https://github.com/btdrizzle/liri-node-app",
+    pic: "./images/liri.png"},
     {name: "Interactive Giphy Search",
     link: "https://btdrizzle.github.io/GifsNotJifs/index.html",
     pic: "./images/gifs.png"},
@@ -12,6 +15,9 @@ var portfolioLinks = [
     {name: "RPSLS Multiplayer Game",
     link: "https://btdrizzle.github.io/RPSLS-Multiplayer/index.html",
     pic: "./images/rpsls.png"},
+    {name: "Liri CLI Server-Side Entertainment Search Engine",
+    link: "https://github.com/btdrizzle/liri-node-app",
+    pic: "./images/liri.png"}
 ]
 //Creating project display  / links on portfolio.html //
 portfolioLinks.forEach(function(link) {
