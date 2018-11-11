@@ -1,5 +1,8 @@
 //Array of objects - project links for portfolio.html //
 var portfolioLinks = [
+    {name: "Friend Finder Interactive App",
+    link: "https://btdrakefriendfinder.herokuapp.com/",
+    pic: "./images/friendFinder.png"},
     {name: "Hooligans Interactive Game",
     link: "https://irichard03.github.io/Project1/index.html",
     pic: "./images/hooligans.png"},
