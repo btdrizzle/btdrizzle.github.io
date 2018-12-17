@@ -98,7 +98,24 @@ nav {
     color: white;
     text-align: center;
 }
+.footer a {
+    color: white;
+}
+.footer a:link {
+    color: white;
+}
+.footer a:hover {
+    color: #6c757d;
+}
+.footer a:visited {
+    text-decoration: none;
+}
 
+@media (min-width: 700px) {
+    .card-img-top {
+        min-height: 275px;
+    }
+}
 @media (max-width: 1025px) { /* The display tag is not responsive.  This is a fix */
     .display-1 {
         font-size: 3rem;
