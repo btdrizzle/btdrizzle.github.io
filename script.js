@@ -1,5 +1,14 @@
 //Array of objects - project links for portfolio.html //
 var portfolioLinks = [
+    {name: "Weather API with Charts",
+    link: "https://btdrakeweatherapp.herokuapp.com/",
+    pic: "./images/weatherapp.png"},
+    {name: "Google Books Search",
+    link: "https://btdrakegooglebooks.herokuapp.com/",
+    pic: "./images/google.png"},
+    {name: "React Memory Game",
+    link: "https://btdrizzle.github.io/reactclickygame/",
+    pic: "./images/reactclicky.png"},
     {name: "Cowboy Boots E-Commerce Store",
     link: "https://boots-n-stuff.herokuapp.com/",
     pic: "./images/boots.png"},
